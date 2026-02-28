@@ -20,6 +20,11 @@ return [
     'allowed_methods' => ['*'],
 
     'allowed_origins' => ['http://localhost:3000'],
+    'allowed_origins' => [
+    'http://localhost:3000', // Pour vos tests locaux
+    'http://89.116.29.239:3000', // Votre IP actuelle
+    'https://pos.haytinumeric.com' // Si vous avez un nom de domaine
+],
 
     'allowed_origins_patterns' => [],
 
